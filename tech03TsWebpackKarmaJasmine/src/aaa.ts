@@ -1,0 +1,1 @@
+export function aaa(){return 5}
