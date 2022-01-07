@@ -1,10 +1,17 @@
 # WebGPU 1 (typescript webpack karam jasmine 架構下)
 
+## 文件版本
+
+- 2022/1/6 初版
+- 2022/1/7 #firefox
+
 ## 找對 browser, 並設定好
 
 - 首先, 測試 browser
   - https://alain.xyz/blog/raw-webgpu
   - 經歷: 以為是程式寫錯(在 safari 測，gpu成功，但 canvas.getContext 失敗)，後來用現成的去測，發現 chrome canary 才行用.
+  - firefox nightly 也能成運行.
+    - firefox 因為有 webxr 計畫, 但在 chrome 中還沒找到 wbexr, 所以才去找這方面的資料. 還好可以用, 不然就好笑了(只支援 WebXR 卻不支援 WebGPU)
 
 ## 實驗1 規畫
 
