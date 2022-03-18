@@ -11,14 +11,14 @@ npm i webpack webpack-cli karma karma-cli jasmine @types/jasmine karma-jasmine k
 (mac)
 ```bash
 mkdir dist src public
-touch webpack.config.js karma.conf.js src/index.ts 
+touch tsconfig.json webpack.config.js karma.conf.js src/index.ts 
 touch src/index.spec.ts src/aaa.ts src/aaa.spec.ts
 ```
 (win)
 ```bash
-mkdir dist2
-mkdir src2
-mkdir public2
+mkdir dist
+mkdir src
+mkdir public
 fsutil file createnew webpack.config.js 0
 fsutil file createnew karma.conf.js 0
 fsutil file createnew src/index.ts 0
