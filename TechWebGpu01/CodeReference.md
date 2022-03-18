@@ -8,10 +8,23 @@ npm i webpack webpack-cli karma karma-cli jasmine @types/jasmine karma-jasmine k
 
 檔案結構
 
+(mac)
 ```bash
 mkdir dist src public
 touch webpack.config.js karma.conf.js tsconfig.json src/index.ts 
 touch src/index.spec.ts dist/index.html
+```
+(win)
+```bash
+mkdir dist
+mkdir src
+mkdir public
+fsutil file createnew webpack.config.js 0
+fsutil file createnew karma.conf.js 0
+fsutil file createnew tsconfig.json 0
+fsutil file createnew src/index.ts 0
+fsutil file createnew dist/index.html 0
+
 ```
 
 tsconfig.json
